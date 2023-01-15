@@ -33,6 +33,7 @@ with open(csvpath, 'r') as csvfile:
         unique_candidates.append(key)
         votes_per_candidate.append(value)
 
+#calculating % of votes each candidate got 
     for x in votes_per_candidate:
         vote_percent.append(round(x/votes*100, 3))
 
