@@ -64,7 +64,7 @@ print("-------------------------")
 print(f"Winner: " + str(winner))
 print("-------------------------")
 
-#I tried to print the report out in a different way but couldn't count % and get a winnerwith with the  defined values. 
+#I tried to print out the report in a different way but couldn't count % and get a winner with the  defined values. 
 #print(f'{candidate1_name} : ({candidates_votes[candidate1_name]})')
 #print(f'{candidate2_name} : ({candidates_votes[candidate2_name]})')
 #print(f'{candidate3_name} : ({candidates_votes[candidate3_name]})')
